@@ -25,7 +25,7 @@ public class ArrayInitFunction implements IFunction<CustomArray> {
         try {
             addString[0] = "Init of array elements";
             addString[1] = "Custom array:";
-            logger.printf(Level.INFO, "%s%n %s%n %s%n%n",
+            logger.printf(Level.INFO, "%s%n %s%n %s%n",
                     addString[0], addString[1], Arrays.toString(array.getArray()));
         } finally {
             IFunction.super.setDefaults();

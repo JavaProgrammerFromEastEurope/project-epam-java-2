@@ -21,8 +21,8 @@ public class ArrayAverFunction implements IFunction<CustomArray> {
         try {
             addString[0] = "Determining the average value of array elements";
             addString[1] = "The Average score:";
-            logger.printf(Level.INFO, "%s%n %s%n %.1f%n%n",
-                    addString[0], addString[2], operation[0]);
+            logger.printf(Level.INFO, "%s%n %s%n %.1f%n",
+                    addString[0], addString[1], operation[0]);
         } finally {
             IFunction.super.setDefaults();
         }

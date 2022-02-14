@@ -1,12 +1,39 @@
 package by.epam.java.entity;
 
-public class CustomArray {
+import by.epam.java.observers.EventManager;
+import org.apache.logging.log4j.Level;
 
+import static by.epam.java.functions.IFunction.logger;
+
+public class CustomArray {
     private long id;
     private String name;
-
+    final private double[] statusArray = new double[4];
+    final public static EventManager events = new EventManager("update");
     private Object[] array;
-    private final int[] statusArray = new int[4];
+
+    public CustomArray(Object[] array) {
+        this.array = array;
+        events.notify("update", this);
+    }
+
+    public void setArray(Object[] array) {
+        this.array = array;
+        events.notify("update", this);
+    }
+
+    public void updateElement(int index, Object element) {
+        if (index > 0) {
+            if (index < array.length) {
+                array[index] = element;
+                events.notify("update", this);
+            } else {
+                logger.printf(Level.ERROR, "Inputted %s greater then %s!", index, array.length);
+            }
+        } else {
+            logger.printf(Level.ERROR, "Inputted %s less then %s!", index, 0);
+        }
+    }
 
     public long getId() {
         return id;
@@ -28,7 +55,7 @@ public class CustomArray {
         return statusArray[3];
     }
 
-    public void setAverage(int value) {
+    public void setAverage(double value) {
         statusArray[0] = value;
     }
 
@@ -58,9 +85,5 @@ public class CustomArray {
 
     public Object[] getArray() {
         return array;
-    }
-
-    public void setArray(Object[] array) {
-        this.array = array;
     }
 }

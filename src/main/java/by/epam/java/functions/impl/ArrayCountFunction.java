@@ -20,7 +20,7 @@ public class ArrayCountFunction implements IFunction<CustomArray> {
         try {
             addString[0] = "Determination the count of array elements.";
             addString[1] = "Count of array elements:";
-            logger.printf(Level.INFO, "%s%n %s%n %s%n%n",
+            logger.printf(Level.INFO, "%s%n %s%n %s%n",
                     addString[0], addString[1], operation[0]);
         } finally {
             IFunction.super.setDefaults();

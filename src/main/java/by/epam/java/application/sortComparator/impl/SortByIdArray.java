@@ -6,6 +6,6 @@ public class SortByIdArray implements ISortTemplate<CustomArray> {
 
     @Override
     public int compare(CustomArray a1, CustomArray a2) {
-        return (int) (a1.getId() - a2.getId());
+        return (int) (a2.getId() - a1.getId());
     }
 }
