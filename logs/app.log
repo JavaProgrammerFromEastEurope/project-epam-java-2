@@ -1,69 +1,443 @@
-[DEBUG] 2022-02-14 23:33:38.735 [main] IFunction - Specific by High Average: [[3, 8, 2, 9, 6, 10]]
-[DEBUG] 2022-02-14 23:33:38.773 [main] IFunction - Specific by Below Average: [[3, 4, 1, 2, 7, 6]]
-[DEBUG] 2022-02-14 23:33:38.782 [main] IFunction - Specific by Average: [[3, 8, 2, 9, 6, 10]]
-[DEBUG] 2022-02-14 23:33:38.816 [main] IFunction - Specific by High Count: [[3, 4, 1, 2, 7, 6, 9, 10]]
-[DEBUG] 2022-02-14 23:33:38.834 [main] IFunction - Specific by Count: [[3, 4, 1, 2, 7, 6, 9, 10]]
-[DEBUG] 2022-02-14 23:33:38.844 [main] IFunction - Specific by Below Count: [[3, 8, 2, 9, 6, 10]]
-[DEBUG] 2022-02-14 23:33:38.866 [main] IFunction - Specific by ID: [[3, 8, 2, 9, 6, 7]]
-[DEBUG] 2022-02-14 23:33:38.882 [main] IFunction - Specific by Below Max: [[3, 4, 1, 2, 7, 6]]
-[DEBUG] 2022-02-14 23:33:38.890 [main] IFunction - Specific by High Max: [[3, 8, 2, 9, 6, 10]]
-[DEBUG] 2022-02-14 23:33:38.898 [main] IFunction - Specific by Max: [[3, 8, 2, 9, 6, 10]]
-[DEBUG] 2022-02-14 23:33:38.911 [main] IFunction - Specific by Below Min: [[3, 4, 1, 2, 7, 6]]
-[DEBUG] 2022-02-14 23:33:38.922 [main] IFunction - Specific by High Min: [[3, 8, 2, 9, 6, 10]]
-[DEBUG] 2022-02-14 23:33:38.928 [main] IFunction - Specific by Min: [[3, 8, 2, 9, 6, 10]]
-[DEBUG] 2022-02-14 23:33:38.943 [main] IFunction - Specific by Name: [[3, 4, 1, 2, 7, 6]]
-[INFO ] 2022-02-14 23:33:51.602 [main] IFunction - Sort by Elements: [[2, 3, 6, 7, 8, 9], [1, 2, 3, 4, 6, 7]]
-[INFO ] 2022-02-14 23:33:51.657 [main] IFunction - Sort by ID: [2, 3]
-[INFO ] 2022-02-14 23:33:51.689 [main] IFunction - Sort by length: [[3, 8, 2, 9, 6, 7, 9], [3, 4, 1, 2, 7, 6]]
-[INFO ] 2022-02-14 23:33:51.716 [main] IFunction - Sort by Name: [First Test array, Second Test array]
-[WARN ] 2022-02-14 23:34:04.510 [main] IFunction - Someone has performed update event.
+[DEBUG] 2022-02-21 17:39:58.618 [main] REPORT - Specific by High Average: [[3, 8, 2, 9, 6, 10]]
+[DEBUG] 2022-02-21 17:39:58.663 [main] REPORT - Specific by Below Average: [[3, 4, 1, 2, 7, 6, 9, 10]]
+[DEBUG] 2022-02-21 17:39:58.674 [main] REPORT - Specific by Average: [[3, 8, 2, 9, 6, 10]]
+[DEBUG] 2022-02-21 17:39:58.696 [main] REPORT - Specific by High Count: [[3, 4, 1, 2, 7, 6, 9, 10]]
+[DEBUG] 2022-02-21 17:39:58.705 [main] REPORT - Specific by Count: [[3, 4, 1, 2, 7, 6, 9, 10]]
+[DEBUG] 2022-02-21 17:39:58.714 [main] REPORT - Specific by Below Count: [[3, 8, 2, 9, 6, 10]]
+[DEBUG] 2022-02-21 17:39:58.730 [main] REPORT - Specific by ID: [[3, 8, 2, 9, 6, 10]]
+[DEBUG] 2022-02-21 17:39:58.746 [main] REPORT - Specific by Below Max: [[3, 4, 1, 2, 7, 6, 9, 10]]
+[DEBUG] 2022-02-21 17:39:58.755 [main] REPORT - Specific by High Max: [[3, 8, 2, 9, 6, 10]]
+[DEBUG] 2022-02-21 17:39:58.768 [main] REPORT - Specific by Max: [[3, 8, 2, 9, 6, 10]]
+[DEBUG] 2022-02-21 17:39:58.783 [main] REPORT - Specific by Below Min: [[3, 4, 1, 2, 7, 6, 9, 10]]
+[DEBUG] 2022-02-21 17:39:58.792 [main] REPORT - Specific by High Min: [[3, 8, 2, 9, 6, 10]]
+[DEBUG] 2022-02-21 17:39:58.802 [main] REPORT - Specific by Min: [[3, 8, 2, 9, 6, 10]]
+[DEBUG] 2022-02-21 17:39:58.829 [main] REPORT - Specific by Name: [[3, 4, 1, 2, 7, 6, 9, 10]]
+[DEBUG] 2022-02-21 17:39:58.841 [main] REPORT - Sort by Name: [First Test array, Second Test array]
+[DEBUG] 2022-02-21 17:39:58.853 [main] REPORT - Sort by length: [[3, 8, 2, 9, 6, 10], [3, 4, 1, 2, 7, 6, 9, 10]]
+[DEBUG] 2022-02-21 17:39:58.868 [main] REPORT - Sort by ID: [2, 3]
+[DEBUG] 2022-02-21 17:39:58.883 [main] REPORT - Sort by Lower Elements: [[2, 3, 6, 8, 9, 10], [1, 2, 3, 4, 6, 7, 9, 10]]
+[DEBUG] 2022-02-21 17:39:58.891 [main] REPORT - Sort by Higher Elements: [[10, 9, 8, 6, 3, 2], [10, 9, 7, 6, 4, 3, 2, 1]]
+[WARN ] 2022-02-21 17:40:19.822 [main] REPORT - Someone has performed update event.
 
-
-[INFO ] 2022-02-14 23:34:04.526 [main] IFunction - Determining the average value of array elements
+[INFO ] 2022-02-21 17:40:19.831 [main] REPORT - Determining the average value of array elements
  The Average score:
- 3.8
+ 3.5
 
-[INFO ] 2022-02-14 23:34:04.527 [main] IFunction - Finding min/max values of array
+[INFO ] 2022-02-21 17:40:19.832 [main] REPORT - Finding min/max values of array
+ Max value is:
+ 6.0
+ Min value is:
+ 1.0
+
+[INFO ] 2022-02-21 17:40:19.833 [main] REPORT - Determination the count of array elements.
+ Count of array elements:
+ 6.0
+
+[WARN ] 2022-02-21 17:40:19.833 [main] REPORT - Someone has performed update event.
+
+[INFO ] 2022-02-21 17:40:19.833 [main] REPORT - Determining the average value of array elements
+ The Average score:
+ 3.5
+
+[INFO ] 2022-02-21 17:40:19.834 [main] REPORT - Finding min/max values of array
  Max value is:
  7.0
  Min value is:
  1.0
 
-[INFO ] 2022-02-14 23:34:04.528 [main] IFunction - Determination the count of array elements.
+[INFO ] 2022-02-21 17:40:19.834 [main] REPORT - Determination the count of array elements.
  Count of array elements:
  6.0
 
-[WARN ] 2022-02-14 23:34:04.528 [main] IFunction - Someone has performed update event.
+[WARN ] 2022-02-21 17:40:19.834 [main] REPORT - Someone has performed update event.
 
-
-[INFO ] 2022-02-14 23:34:04.529 [main] IFunction - Determining the average value of array elements
+[INFO ] 2022-02-21 17:40:19.835 [main] REPORT - Determining the average value of array elements
  The Average score:
- 5.8
+ 4.7
 
-[INFO ] 2022-02-14 23:34:04.529 [main] IFunction - Finding min/max values of array
+[INFO ] 2022-02-21 17:40:19.835 [main] REPORT - Finding min/max values of array
  Max value is:
- 9.0
+ 8.0
  Min value is:
  2.0
 
-[INFO ] 2022-02-14 23:34:04.530 [main] IFunction - Determination the count of array elements.
+[INFO ] 2022-02-21 17:40:19.836 [main] REPORT - Determination the count of array elements.
  Count of array elements:
  6.0
 
-[WARN ] 2022-02-14 23:34:04.530 [main] IFunction - Someone has performed update event.
+[DEBUG] 2022-02-21 17:40:19.840 [main] REPORT - Warehouse : [[3.5, 6, 1, 6], [3.5, 7, 1, 6], [4.666666666666667, 8, 2, 6]]
+[WARN ] 2022-02-21 17:40:19.847 [main] REPORT - Someone has performed update event.
 
-
-[INFO ] 2022-02-14 23:34:04.531 [main] IFunction - Determining the average value of array elements
+[INFO ] 2022-02-21 17:40:19.847 [main] REPORT - Determining the average value of array elements
  The Average score:
- 5.3
+ 3.5
 
-[INFO ] 2022-02-14 23:34:04.531 [main] IFunction - Finding min/max values of array
+[INFO ] 2022-02-21 17:40:19.848 [main] REPORT - Finding min/max values of array
  Max value is:
- 9.0
+ 6.0
+ Min value is:
+ 1.0
+
+[INFO ] 2022-02-21 17:40:19.848 [main] REPORT - Determination the count of array elements.
+ Count of array elements:
+ 6.0
+
+[WARN ] 2022-02-21 17:40:19.849 [main] REPORT - Someone has performed update event.
+
+[INFO ] 2022-02-21 17:40:19.849 [main] REPORT - Determining the average value of array elements
+ The Average score:
+ 3.5
+
+[INFO ] 2022-02-21 17:40:19.850 [main] REPORT - Finding min/max values of array
+ Max value is:
+ 7.0
+ Min value is:
+ 1.0
+
+[INFO ] 2022-02-21 17:40:19.850 [main] REPORT - Determination the count of array elements.
+ Count of array elements:
+ 6.0
+
+[WARN ] 2022-02-21 17:40:19.850 [main] REPORT - Someone has performed update event.
+
+[INFO ] 2022-02-21 17:40:19.851 [main] REPORT - Determining the average value of array elements
+ The Average score:
+ 4.7
+
+[INFO ] 2022-02-21 17:40:19.851 [main] REPORT - Finding min/max values of array
+ Max value is:
+ 8.0
  Min value is:
  2.0
 
-[INFO ] 2022-02-14 23:34:04.532 [main] IFunction - Determination the count of array elements.
+[INFO ] 2022-02-21 17:40:19.851 [main] REPORT - Determination the count of array elements.
  Count of array elements:
  6.0
 
+[WARN ] 2022-02-21 17:40:19.863 [main] REPORT - Someone has performed update event.
+
+[INFO ] 2022-02-21 17:40:19.864 [main] REPORT - Determining the average value of array elements
+ The Average score:
+ 3.5
+
+[INFO ] 2022-02-21 17:40:19.865 [main] REPORT - Finding min/max values of array
+ Max value is:
+ 6.0
+ Min value is:
+ 1.0
+
+[INFO ] 2022-02-21 17:40:19.865 [main] REPORT - Determination the count of array elements.
+ Count of array elements:
+ 6.0
+
+[WARN ] 2022-02-21 17:40:19.867 [main] REPORT - Someone has performed update event.
+
+[INFO ] 2022-02-21 17:40:19.868 [main] REPORT - Determining the average value of array elements
+ The Average score:
+ 3.5
+
+[INFO ] 2022-02-21 17:40:19.868 [main] REPORT - Finding min/max values of array
+ Max value is:
+ 7.0
+ Min value is:
+ 1.0
+
+[INFO ] 2022-02-21 17:40:19.869 [main] REPORT - Determination the count of array elements.
+ Count of array elements:
+ 6.0
+
+[WARN ] 2022-02-21 17:40:19.870 [main] REPORT - Someone has performed update event.
+
+[INFO ] 2022-02-21 17:40:19.870 [main] REPORT - Determining the average value of array elements
+ The Average score:
+ 4.7
+
+[INFO ] 2022-02-21 17:40:19.871 [main] REPORT - Finding min/max values of array
+ Max value is:
+ 8.0
+ Min value is:
+ 2.0
+
+[INFO ] 2022-02-21 17:40:19.871 [main] REPORT - Determination the count of array elements.
+ Count of array elements:
+ 6.0
+
+[DEBUG] 2022-02-21 17:40:19.872 [main] REPORT - Repo from init [[1, 2, 3, 4, 5, 6], [1, 2, 3, 3, 5, 7], [2, 3, 3, 6, 6, 8]]
+[DEBUG] 2022-02-21 17:40:19.872 [main] REPORT - Repo from file [[1, 2, 3, 4, 5, 6], [1, 2, 3, 3, 5, 7], [2, 3, 3, 6, 6, 8]]
+[WARN ] 2022-02-21 17:40:19.877 [main] REPORT - Someone has performed update event.
+
+[INFO ] 2022-02-21 17:40:19.878 [main] REPORT - Determining the average value of array elements
+ The Average score:
+ -2.0
+
+[INFO ] 2022-02-21 17:40:19.878 [main] REPORT - Finding min/max values of array
+ Max value is:
+ 11.0
+ Min value is:
+ -15.0
+
+[INFO ] 2022-02-21 17:40:19.879 [main] REPORT - Determination the count of array elements.
+ Count of array elements:
+ 6.0
+
+[WARN ] 2022-02-21 17:40:19.879 [main] REPORT - Someone has performed update event.
+
+[INFO ] 2022-02-21 17:40:19.879 [main] REPORT - Determining the average value of array elements
+ The Average score:
+ 1.8
+
+[INFO ] 2022-02-21 17:40:19.880 [main] REPORT - Finding min/max values of array
+ Max value is:
+ 15.0
+ Min value is:
+ -9.0
+
+[INFO ] 2022-02-21 17:40:19.880 [main] REPORT - Determination the count of array elements.
+ Count of array elements:
+ 6.0
+
+[WARN ] 2022-02-21 17:40:19.880 [main] REPORT - Someone has performed update event.
+
+[INFO ] 2022-02-21 17:40:19.881 [main] REPORT - Determining the average value of array elements
+ The Average score:
+ 6.0
+
+[INFO ] 2022-02-21 17:40:19.881 [main] REPORT - Finding min/max values of array
+ Max value is:
+ 12.0
+ Min value is:
+ -5.0
+
+[INFO ] 2022-02-21 17:40:19.881 [main] REPORT - Determination the count of array elements.
+ Count of array elements:
+ 6.0
+
+[DEBUG] 2022-02-21 17:40:19.881 [main] REPORT - Repo rand values: [[-15, -12, -4, 0, 8, 11], [-9, -9, -7, 9, 12, 15], [-5, 2, 5, 11, 11, 12]]
+[WARN ] 2022-02-21 17:41:06.500 [main] REPORT - Someone has performed update event.
+
+[INFO ] 2022-02-21 17:41:06.514 [main] REPORT - Determining the average value of array elements
+ The Average score:
+ 3.8
+
+[INFO ] 2022-02-21 17:41:06.516 [main] REPORT - Finding min/max values of array
+ Max value is:
+ 7.0
+ Min value is:
+ 1.0
+
+[INFO ] 2022-02-21 17:41:06.517 [main] REPORT - Determination the count of array elements.
+ Count of array elements:
+ 6.0
+
+[WARN ] 2022-02-21 17:41:06.546 [main] REPORT - Someone has performed update event.
+
+[INFO ] 2022-02-21 17:41:06.547 [main] REPORT - Determining the average value of array elements
+ The Average score:
+ 4.2
+
+[INFO ] 2022-02-21 17:41:06.547 [main] REPORT - Finding min/max values of array
+ Max value is:
+ 7.0
+ Min value is:
+ 2.0
+
+[INFO ] 2022-02-21 17:41:06.548 [main] REPORT - Determination the count of array elements.
+ Count of array elements:
+ 6.0
+
+[WARN ] 2022-02-21 17:45:29.945 [main] REPORT - Someone has performed update event.
+
+[INFO ] 2022-02-21 17:45:29.953 [main] REPORT - Determining the average value of array elements
+ The Average score:
+ 3.5
+
+[INFO ] 2022-02-21 17:45:29.954 [main] REPORT - Finding min/max values of array
+ Max value is:
+ 6.0
+ Min value is:
+ 1.0
+
+[INFO ] 2022-02-21 17:45:29.955 [main] REPORT - Determination the count of array elements.
+ Count of array elements:
+ 6.0
+
+[WARN ] 2022-02-21 17:45:29.955 [main] REPORT - Someone has performed update event.
+
+[INFO ] 2022-02-21 17:45:29.956 [main] REPORT - Determining the average value of array elements
+ The Average score:
+ 3.5
+
+[INFO ] 2022-02-21 17:45:29.956 [main] REPORT - Finding min/max values of array
+ Max value is:
+ 7.0
+ Min value is:
+ 1.0
+
+[INFO ] 2022-02-21 17:45:29.956 [main] REPORT - Determination the count of array elements.
+ Count of array elements:
+ 6.0
+
+[WARN ] 2022-02-21 17:45:29.957 [main] REPORT - Someone has performed update event.
+
+[INFO ] 2022-02-21 17:45:29.957 [main] REPORT - Determining the average value of array elements
+ The Average score:
+ 4.7
+
+[INFO ] 2022-02-21 17:45:29.958 [main] REPORT - Finding min/max values of array
+ Max value is:
+ 8.0
+ Min value is:
+ 2.0
+
+[INFO ] 2022-02-21 17:45:29.958 [main] REPORT - Determination the count of array elements.
+ Count of array elements:
+ 6.0
+
+[DEBUG] 2022-02-21 17:45:29.963 [main] REPORT - Warehouse : [[3.5, 6, 1, 6], [3.5, 7, 1, 6], [4.666666666666667, 8, 2, 6]]
+[WARN ] 2022-02-21 17:45:29.992 [main] REPORT - Someone has performed update event.
+
+[INFO ] 2022-02-21 17:45:29.993 [main] REPORT - Determining the average value of array elements
+ The Average score:
+ 3.5
+
+[INFO ] 2022-02-21 17:45:29.994 [main] REPORT - Finding min/max values of array
+ Max value is:
+ 6.0
+ Min value is:
+ 1.0
+
+[INFO ] 2022-02-21 17:45:29.994 [main] REPORT - Determination the count of array elements.
+ Count of array elements:
+ 6.0
+
+[WARN ] 2022-02-21 17:45:29.995 [main] REPORT - Someone has performed update event.
+
+[INFO ] 2022-02-21 17:45:29.995 [main] REPORT - Determining the average value of array elements
+ The Average score:
+ 3.5
+
+[INFO ] 2022-02-21 17:45:29.996 [main] REPORT - Finding min/max values of array
+ Max value is:
+ 7.0
+ Min value is:
+ 1.0
+
+[INFO ] 2022-02-21 17:45:29.996 [main] REPORT - Determination the count of array elements.
+ Count of array elements:
+ 6.0
+
+[WARN ] 2022-02-21 17:45:29.996 [main] REPORT - Someone has performed update event.
+
+[INFO ] 2022-02-21 17:45:29.997 [main] REPORT - Determining the average value of array elements
+ The Average score:
+ 4.7
+
+[INFO ] 2022-02-21 17:45:29.998 [main] REPORT - Finding min/max values of array
+ Max value is:
+ 8.0
+ Min value is:
+ 2.0
+
+[INFO ] 2022-02-21 17:45:29.998 [main] REPORT - Determination the count of array elements.
+ Count of array elements:
+ 6.0
+
+[WARN ] 2022-02-21 17:45:30.013 [main] REPORT - Someone has performed update event.
+
+[INFO ] 2022-02-21 17:45:30.014 [main] REPORT - Determining the average value of array elements
+ The Average score:
+ 3.5
+
+[INFO ] 2022-02-21 17:45:30.015 [main] REPORT - Finding min/max values of array
+ Max value is:
+ 6.0
+ Min value is:
+ 1.0
+
+[INFO ] 2022-02-21 17:45:30.015 [main] REPORT - Determination the count of array elements.
+ Count of array elements:
+ 6.0
+
+[WARN ] 2022-02-21 17:45:30.016 [main] REPORT - Someone has performed update event.
+
+[INFO ] 2022-02-21 17:45:30.018 [main] REPORT - Determining the average value of array elements
+ The Average score:
+ 3.5
+
+[INFO ] 2022-02-21 17:45:30.019 [main] REPORT - Finding min/max values of array
+ Max value is:
+ 7.0
+ Min value is:
+ 1.0
+
+[INFO ] 2022-02-21 17:45:30.019 [main] REPORT - Determination the count of array elements.
+ Count of array elements:
+ 6.0
+
+[WARN ] 2022-02-21 17:45:30.020 [main] REPORT - Someone has performed update event.
+
+[INFO ] 2022-02-21 17:45:30.021 [main] REPORT - Determining the average value of array elements
+ The Average score:
+ 4.7
+
+[INFO ] 2022-02-21 17:45:30.022 [main] REPORT - Finding min/max values of array
+ Max value is:
+ 8.0
+ Min value is:
+ 2.0
+
+[INFO ] 2022-02-21 17:45:30.022 [main] REPORT - Determination the count of array elements.
+ Count of array elements:
+ 6.0
+
+[DEBUG] 2022-02-21 17:45:30.023 [main] REPORT - Repo from init [[1, 2, 3, 4, 5, 6], [1, 2, 3, 3, 5, 7], [2, 3, 3, 6, 6, 8]]
+[DEBUG] 2022-02-21 17:45:30.023 [main] REPORT - Repo from file [[1, 2, 3, 4, 5, 6], [1, 2, 3, 3, 5, 7], [2, 3, 3, 6, 6, 8]]
+[WARN ] 2022-02-21 17:45:30.034 [main] REPORT - Someone has performed update event.
+
+[INFO ] 2022-02-21 17:45:30.034 [main] REPORT - Determining the average value of array elements
+ The Average score:
+ -4.3
+
+[INFO ] 2022-02-21 17:45:30.035 [main] REPORT - Finding min/max values of array
+ Max value is:
+ 14.0
+ Min value is:
+ -13.0
+
+[INFO ] 2022-02-21 17:45:30.035 [main] REPORT - Determination the count of array elements.
+ Count of array elements:
+ 6.0
+
+[WARN ] 2022-02-21 17:45:30.035 [main] REPORT - Someone has performed update event.
+
+[INFO ] 2022-02-21 17:45:30.036 [main] REPORT - Determining the average value of array elements
+ The Average score:
+ -3.0
+
+[INFO ] 2022-02-21 17:45:30.036 [main] REPORT - Finding min/max values of array
+ Max value is:
+ 12.0
+ Min value is:
+ -12.0
+
+[INFO ] 2022-02-21 17:45:30.037 [main] REPORT - Determination the count of array elements.
+ Count of array elements:
+ 6.0
+
+[WARN ] 2022-02-21 17:45:30.037 [main] REPORT - Someone has performed update event.
+
+[INFO ] 2022-02-21 17:45:30.038 [main] REPORT - Determining the average value of array elements
+ The Average score:
+ -7.8
+
+[INFO ] 2022-02-21 17:45:30.038 [main] REPORT - Finding min/max values of array
+ Max value is:
+ 6.0
+ Min value is:
+ -15.0
+
+[INFO ] 2022-02-21 17:45:30.038 [main] REPORT - Determination the count of array elements.
+ Count of array elements:
+ 6.0
+
+[DEBUG] 2022-02-21 17:45:30.039 [main] REPORT - Repo rand values: [[-13, -11, -9, -7, 0, 14], [-12, -6, -5, -4, -3, 12], [-15, -14, -13, -10, -1, 6]]
