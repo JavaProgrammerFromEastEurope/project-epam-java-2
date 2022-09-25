@@ -3,6 +3,7 @@ package by.epam.taskArray.entity;
 import by.epam.taskArray.application.sort.SortTemplate;
 import by.epam.taskArray.application.specification.Specification;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -30,7 +31,7 @@ public class CustomRepository {
     }
 
     public List<CustomArray> getAll() {
-        return mapOfArrays.values().stream().toList();
+        return new ArrayList<>(mapOfArrays.values());
     }
 
     public List<CustomArray> query(Specification<CustomArray> specification) {

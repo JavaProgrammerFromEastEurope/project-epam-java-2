@@ -1,8 +1,10 @@
 package by.epam.taskArray.entity;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 public class CustomWarehouse {
 
@@ -25,7 +27,7 @@ public class CustomWarehouse {
     }
 
     public List<StatusArray> getAll() {
-        return arrays.values().stream().toList();
+        return new ArrayList<>(arrays.values());
     }
 
     public StatusArray get(long index) {
